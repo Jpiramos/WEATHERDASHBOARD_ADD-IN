@@ -22,7 +22,9 @@ The add-in includes:
 4. Build and run the project.
 5. Open Excel, and you should see the add-in available in the ribbon.
 6. Enter a city name and click the button to fetch weather data.
+### IMPORTANT: API Key Required
 
+To make the project work, you **need to set up your own OpenWeatherMap API key**.
 ## Prerequisites
 
 - **Visual Studio** (with Office/SharePoint Development workload).
