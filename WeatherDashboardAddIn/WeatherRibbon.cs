@@ -32,8 +32,8 @@ namespace WeatherDashboardAddIn
                 // Criar um handler sem proxy
                 HttpClientHandler handler = new HttpClientHandler()
                 {
-                    Proxy = null,  // Desabilita o uso de proxy
-                    UseProxy = false  // Não usar proxy
+                    Proxy = null, 
+                    UseProxy = false  
                 };
 
                 // Usar o handler no HttpClient
@@ -69,7 +69,7 @@ namespace WeatherDashboardAddIn
                         planilha.Range["A1:B1"].Font.Color = System.Drawing.Color.White;
 
                         // Aplicar bordas para as células preenchidas
-                        planilha.Range["A1:B4"].Borders.LineStyle = 1; // Borda simples
+                        planilha.Range["A1:B4"].Borders.LineStyle = 1;
 
                         // Alterar o estilo das células com os dados
                         planilha.Range["A2:B4"].Font.Color = System.Drawing.Color.Black;
