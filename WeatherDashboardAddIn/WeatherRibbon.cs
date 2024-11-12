@@ -20,7 +20,7 @@ namespace WeatherDashboardAddIn
 
         private async void btnBuscarClima_Click(object sender, RibbonControlEventArgs e)
         {
-            string apiKey = "3a45bd3fab25bc775596be00e632641a";
+            string apiKey = "API_KEY HERE";
             string cidade = txtCidade.Text;
             string cidadeCodificada = Uri.EscapeDataString(cidade);
             string apiUrl = $"https://api.openweathermap.org/data/2.5/weather?q={cidadeCodificada}&appid={apiKey}&units=metric&lang=pt";
