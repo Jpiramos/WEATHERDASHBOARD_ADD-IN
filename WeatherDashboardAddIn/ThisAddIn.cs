@@ -14,7 +14,7 @@ namespace WeatherDashboardAddIn
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            // Garantir que a planilha está criada
+        
             if (Globals.ThisAddIn.Application.Workbooks.Count == 0)
             {
                 Globals.ThisAddIn.Application.Workbooks.Add();
